@@ -9,7 +9,7 @@ This project demonstrates:
 - Logging of access results
 
 ## Project Structure
-- `user_setuo.sh`  main script that creat and sets up directories, permissions.
+- `user_setup.sh`  main script that creat and sets up directories, permissions.
 - `test_premission.sh`  script that runs access tests
 - `access_test_full.log`  log of last run
 - `README.md`  project documentation
@@ -18,5 +18,6 @@ This project demonstrates:
 ## How to Run
 1. Make the script executable:
 ```bash
-chmod +x full_access_test.sh
+chmod +x user_setup.sh
+chmod +x test_premission.sh
 
