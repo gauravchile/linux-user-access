@@ -1,0 +1,21 @@
+===ACCESS TEST===
+Thu Sep 25 08:19:21 UTC 2025
+
+Directories and permissions fixed.
+
+Testing user: admin1
+admin1 can write in /project/admin_data 
+admin1 cannot write in /project/staff_data 
+admin1 cannot write in /project/guest_data 
+
+Testing user: staff1
+staff1 cannot write in /project/admin_data 
+staff1 can write in /project/staff_data 
+staff1 cannot write in /project/guest_data 
+
+Testing user: guest1
+guest1 cannot write in /project/admin_data 
+guest1 cannot write in /project/staff_data 
+guest1 can write in /project/guest_data 
+
+Test Complete 
